@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02 - jQuery</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            position: fixed;
+            cursor: pointer;
+        }
+
+        div{
+            height: 900px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #primeiroConteudo{
+            background-color: aquamarine;
+        }
+        #segundoConteudo{
+            background-color: brown;
+        }
+        #terceiroConteudo{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu nav -->
+    <nav>
+        <ul>
+            <li id="menuInicio">Inicio</li>
+            <li id="menuSobre">Sobre</li>
+            <li id="menuServicos">Serviços</li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdos -->
+    <div id="primeiroConteudo">Primeiro conteúdo</div>
+    <div id="segundoConteudo">Segundo conteúdo</div>
+    <div id="terceiroConteudo">Terceiro conteúdo</div>
+
+    <!-- Scripts JS - jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="js/script_jquery.js"></script>
+    
+</body>
+</html>
